@@ -20,7 +20,6 @@ REACT_APP_MORALIS_SERVER_URL = https://xxxxxx.grandmoralis.com:2053/server
 yarn start
 ```
 
-
 # `ethereum-boilerplate`
 
 > React components and hooks for fast building dApps without running own backend
