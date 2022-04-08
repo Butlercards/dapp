@@ -1,3 +1,26 @@
+# Setup
+
+`git clone https://github.com/Butlercards/dapp.git`
+
+`npm install --global yarn`
+
+`yarn install`
+
+✏ Rename `.env.example` to `.env` in the main folder and provide your `appId` and `serverUrl` from Moralis ([How to start Moralis Server](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server))
+Example:
+
+```jsx
+REACT_APP_MORALIS_APPLICATION_ID = xxxxxxxxxxxx
+REACT_APP_MORALIS_SERVER_URL = https://xxxxxx.grandmoralis.com:2053/server
+```
+
+🚴‍♂️ Run App:
+
+```sh
+yarn start
+```
+
+
 # `ethereum-boilerplate`
 
 > React components and hooks for fast building dApps without running own backend
@@ -12,42 +35,9 @@ Please check the [official documentation of Moralis](https://docs.moralis.io/#us
 
 ![daPPdemo](https://user-images.githubusercontent.com/78314301/147088732-e8bbd451-9351-4338-879c-b1535f4df319.gif)
 
-# ⭐️ `Star us`
-
-If this boilerplate helps you build Ethereum dapps faster - please star this project, every star makes us very happy!
-
 # 🤝 `Need help?`
 
 If you need help with setting up the boilerplate or have other questions - don't hesitate to write in our community forum and we will check asap. [Forum link](https://forum.moralis.io/t/ethereum-boilerplate-questions/3951/86). The best thing about this boilerplate is the super active community ready to help at any time! We help each other.
-
-# 🚀 Quick Start
-
-📄 Clone or fork `ethereum-boilerplate`:
-
-```sh
-git clone https://github.com/ethereum-boilerplate/ethereum-boilerplate.git
-```
-
-💿 Install all dependencies:
-
-```sh
-cd ethereum-boilerplate
-yarn install
-```
-
-✏ Rename `.env.example` to `.env` in the main folder and provide your `appId` and `serverUrl` from Moralis ([How to start Moralis Server](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server))
-Example:
-
-```jsx
-REACT_APP_MORALIS_APPLICATION_ID = xxxxxxxxxxxx
-REACT_APP_MORALIS_SERVER_URL = https://xxxxxx.grandmoralis.com:2053/server
-```
-
-🚴‍♂️ Run your App:
-
-```sh
-yarn start
-```
 
 # 🧭 Table of contents
 
